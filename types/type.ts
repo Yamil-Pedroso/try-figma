@@ -42,7 +42,7 @@ export type ShapeData = {
   type: string;
   width: number;
   height: number;
-  fill: string | Pattern | Gradient;
+  fill: string | Gradient | Pattern;
   left: number;
   top: number;
   objectId: string | undefined;
